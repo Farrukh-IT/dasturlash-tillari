@@ -1,0 +1,31 @@
+         @IT_Sphere:
+    #S.Farrukh*
+from math import *
+while True:
+    print(""">>>>>Kankulyator amalni kiritin<<<<<<<""")
+    print("1-Amal Qo'shish:")
+    print("2-Amal Ayirish:")
+    print("3-Amal Bo'lish':")
+    print("4-Amal Ko'paytish:")
+    print("Chiqish uchun X ni bosing")
+    
+    amal = input("Amal kiritting: ")
+    
+    if amal == 'X' or amal =='x':
+        break
+    
+    a = int(input("Soni kiritng- "))
+    b = int(input("Soni kiritng- "))
+    
+    if amal =='1':
+      print("Qo'shilmasi {}".format(a+b))
+    elif amal == '2':
+        print("Ayirilmasi {}"(a-b))
+    elif amal == '3':
+        print("Ko'paytmasi {}".format(a*b))  
+    elif amal == '4':
+        print("Bo'linmasi {}".format(a/b))    
+    else:
+        print("Noto'g'ri tanlov: ")
+        
+print("Foydalanganigiz uchun raxmat!")
